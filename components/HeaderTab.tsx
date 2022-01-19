@@ -17,15 +17,15 @@ const HeaderTab: FunctionComponent = () => {
         },
         {
             name: 'About',
-            href: '#'
+            href: '/about'
         },
         {
-            name: 'Portfolio',
-            href: '#'
+            name: 'Bookmarks',
+            href: '/bookmarks'
         },
         {
-            name: 'Work',
-            href: '#'
+            name: 'Projects',
+            href: '/projects'
         },
         {
             name: 'Blog',

@@ -7,8 +7,8 @@ module.exports = withAnimations({
     theme: {
         extend: {},
         fontFamily: {
-            serif: ["'Crimson Pro'"],
-            mono: ["'JetBrains Mono'"]
+            sans: ["'Montserrat'"],
+            mono: ["'Inconsolata'"]
         }
     },
     plugins: [],

@@ -1,12 +1,10 @@
-import type {NextPage} from 'next'
-import Head from 'next/head'
-import Footer from "../components/Footer";
-import HomeArea from "../components/HomeArea";
-import Header from '../components/Header';
+import {NextPage} from "next";
+import Head from "next/head";
+import Header from "../components/Header";
 
-const Home: NextPage = () => {
-    const title = 'SoloCodes';
-    const description = 'Writing code and starting companies.'
+const Bookmarks: NextPage = () => {
+    const title = 'SoloCodes | Bookmarks';
+    const description = 'A collection of my favorite sites for developers.'
 
     return (
         <>
@@ -20,13 +18,13 @@ const Home: NextPage = () => {
             <div className="min-h-screen">
                 <main className="max-w-5xl mx-auto relative">
                     <Header/>
-                    <HomeArea/>
-                    <Footer/>
+                    <div className="h-full py-48 max-w-2xl mx-auto flex items-center justify-center">
+                        Coming Soon
+                    </div>
                 </main>
             </div>
-
         </>
-    )
-}
+    );
+};
 
-export default Home
+export default Bookmarks

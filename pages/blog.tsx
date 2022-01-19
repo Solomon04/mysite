@@ -2,7 +2,7 @@ import {GetStaticProps, InferGetServerSidePropsType, InferGetStaticPropsType, Ne
 import {Client} from "@notionhq/client";
 import BlogCard from "../components/Card";
 import Head from "next/head";
-import Nav from "../components/Nav";
+import Header from "../components/Header";
 import Footer from "../components/Footer";
 import {BlogPost} from "../@types/schema";
 
@@ -70,7 +70,7 @@ const Blog = ({posts}: InferGetStaticPropsType<typeof getStaticProps>) => {
 
             <div className="min-h-screen">
                 <main className="max-w-5xl mx-auto relative">
-                    <Nav/>
+                    <Header/>
                     <div className="h-full pt-4 pb-16 mx-auto">
                         <div className="flex items-center justify-center">
                             <h1 className="font-extrabold text-4xl text-white">Blog</h1>
