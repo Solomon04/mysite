@@ -1,7 +1,6 @@
 import {FunctionComponent} from "react";
 import Link from "next/link";
 import {BlogPost} from "../@types/schema";
-import slugify from "slugify";
 import dayjs from 'dayjs'
 
 type CardProps = {
@@ -20,10 +19,8 @@ const BlogCard: FunctionComponent<CardProps> = ({post}) => {
         )
     }
 
-    const slug = slugify(`${post.title.toLowerCase()} ${post.id}`)
-
     return (
-        <Link href={`/post/${slug}`}>
+        <Link href={`/post/${post.slug}`}>
             <a className="transition duration-300 hover:scale-105">
                 <div key={post.title} className="flex flex-col rounded-xl shadow-lg overflow-hidden">
                     <div className="flex-shrink-0">

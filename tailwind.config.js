@@ -11,5 +11,7 @@ module.exports = withAnimations({
             mono: ["'Inconsolata'"]
         }
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography')
+    ],
 });

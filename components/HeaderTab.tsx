@@ -46,7 +46,7 @@ const HeaderTab: FunctionComponent = () => {
             {
                 tabs.map(tab => (
                     <Link key={tab.name} href={tab.href} passHref={true}>
-                        <TabItem active={tab.href === router.pathname}>{tab.name}</TabItem>
+                        <TabItem active={tab.href == router.pathname}>{tab.name}</TabItem>
                     </Link>
                 ))
             }

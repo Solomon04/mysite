@@ -5,27 +5,27 @@ const Footer: FunctionComponent = () => {
         {
             name: 'Github',
             href: 'https://github.com/Solomon04',
-            icon: "icons/github.svg"
+            icon: "/icons/github.svg"
         },
         {
             name: 'Twitter',
             href: 'https://twitter.com/solocodes_me',
-            icon: 'icons/twitter.svg'
+            icon: '/icons/twitter.svg'
         },
         {
             name: 'LinkedIn',
             href: 'https://www.linkedin.com/in/solomon-antoine-a52393152/',
-            icon: 'icons/linkedin.svg'
+            icon: '/icons/linkedin.svg'
         },
         {
             name: 'YouTube',
             href: 'https://www.youtube.com/c/Icodestuff',
-            icon: 'icons/youtube.svg'
+            icon: '/icons/youtube.svg'
         },
         {
             name: 'Instagram',
             href: 'https://www.instagram.com/s_.o_l_o_m_o_n/',
-            icon: 'icons/instagram.svg'
+            icon: '/icons/instagram.svg'
         }
     ]
 
